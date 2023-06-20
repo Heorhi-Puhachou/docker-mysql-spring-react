@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>docker-spring-api</artifactId>
+	<version>0.0.2</version>
 	<name>spring-api</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -44,7 +44,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>built-rest</finalName>
+		<finalName>docker-spring-api</finalName>
 	</build>
-
 </project>
