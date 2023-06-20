@@ -13,11 +13,6 @@ docker build --tag spring-api-image .
 
 Start container from image
 ```
-docker compose up
-```
-
-or without console blocking
-```
 docker compose up -d
 ```
 
