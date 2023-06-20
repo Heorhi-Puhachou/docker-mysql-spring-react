@@ -1,0 +1,12 @@
+services:
+  springapi:
+    container_name: spring-api-container
+    image: spring-api-image
+    networks:
+      - custom-network
+    ports:
+      - "8080:8080"
+
+networks:
+  custom-network:
+    name: custom-network
