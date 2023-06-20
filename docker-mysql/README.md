@@ -12,15 +12,19 @@ Start container from image
 ```
 docker compose up
 ```
+or without console blocking
+```
+docker compose up -d
+```
 
 Check data in DB
 ```
-docker run -it --rm --link test-mysql-container mysql:latest mysql -htest-mysql-container -uroot -proot myexample -e "select * from game;"
+docker run -it --rm --network custom-network --link prepopulated-db-container mysql:latest mysql -hprepopulated-db-container -uroot -proot myexample -e "select * from game;"
 ```
 
 You can connect to inner console and work with data
 ```
-docker exec -it test-mysql-container bash
+docker exec -it prepopulated-db-container bash
 ```
 
 Here you must specify password (root) after executing:
