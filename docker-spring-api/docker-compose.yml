@@ -1,5 +1,5 @@
 services:
-  springapi:
+  spring-api:
     container_name: spring-api-container
     image: spring-api-image
     networks:

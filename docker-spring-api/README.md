@@ -1,11 +1,6 @@
 Spring API container
 ============================
 
-Build jar
-```
-clean install -DskipTests
-```
-
 Build image
 ```
 docker build --tag spring-api-image .
