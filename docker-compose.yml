@@ -1,0 +1,33 @@
+services:
+  db:
+    container_name: prepopulated-db-container
+    build: ./docker-mysql
+    image: prepopulated-db-image
+    networks:
+      - custom-network
+    ports:
+      - "3306:3306"
+  spring-api:
+    container_name: spring-api-container
+    build: ./docker-spring-api
+    image: spring-api-image
+    networks:
+      - custom-network
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+  ui:
+    container_name: react-ui-container
+    build: ./docker-react
+    image: react-ui-image
+    networks:
+      - custom-network
+    ports:
+      - "3000:3000"
+    depends_on:
+      - spring-api
+
+networks:
+  custom-network:
+    name: custom-network

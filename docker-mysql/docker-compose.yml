@@ -2,7 +2,6 @@ services:
   db:
     container_name: prepopulated-db-container
     image: prepopulated-db-image
-    restart: always
     networks:
       - custom-network
     ports:
