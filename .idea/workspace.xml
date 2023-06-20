@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50de1c71-15f4-4b21-8de4-2d3b76976651" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/docker-react/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-mysql/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-mysql/docker-compose_2.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-spring-api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-spring-api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+    <list default="true" id="50de1c71-15f4-4b21-8de4-2d3b76976651" name="Changes" comment="Small update">
+      <change beforePath="$PROJECT_DIR$/docker-mysql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker-mysql/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/docker-mysql" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687247947873</updated>
-      <workItem from="1687247949007" duration="512000" />
+      <workItem from="1687247949007" duration="578000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1687248184028</created>
@@ -70,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687248184028</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Small update">
+      <created>1687248484281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687248484281</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +80,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Small update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small update" />
   </component>
 </project>
